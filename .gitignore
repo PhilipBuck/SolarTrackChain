@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+artifacts/
+cache/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# FHEVM temp files
+fhevmTemp/
+
+# Deployments (keep structure but not sensitive data)
+deployments/localhost/
+deployments/sepolia/
+
+# Generated types
+types/
+**/types/
+
+# ABI temp files
+*.tmp
+
+# Test files
+*.test.ts
+*.test.tsx
+
+# Media files
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Template files (not needed in main repo)
+zama_template/
+视频/
+screenshot-*.png
